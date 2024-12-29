@@ -82,6 +82,8 @@ Modify the following configurations in the script as needed:
 - `DATA_RATE_THRESHOLD`: Minimum data rate (in bytes/second) to consider as significant traffic (default: `1000`).
 
 ## Showcase Of Program
+![image](https://github.com/user-attachments/assets/485e8763-3486-4643-b34d-798794b4ae5a)
+
 ![image](https://github.com/user-attachments/assets/2cc6b4ee-5016-4edf-aab1-4e7f26fc1602)
 
 
