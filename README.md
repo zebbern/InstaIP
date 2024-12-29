@@ -33,6 +33,8 @@ Perfect to identify active live game IP & Ports!
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
+   or
+   pip3 install -r requirements.txt
    ```
 
 3. Ensure TShark is installed on your system. Follow the [Wireshark documentation](https://www.wireshark.org/download.html) for installation instructions.
@@ -41,6 +43,8 @@ Perfect to identify active live game IP & Ports!
 1. Run the script:
    ```bash
    python server.py
+   or
+   python3 server.py
    ```
 
 2. Follow the prompts to:
