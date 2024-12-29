@@ -25,8 +25,8 @@ Server IP finder for online games, providing live game session analysis for IP a
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zebbern/GameSniffer.git
-   cd GameSniffer
+   git clone https://github.com/zebbern/Server-IP-Finder-for-Games.git
+   cd Server-IP-Finder-for-Games
    ```
 
 2. Install the required dependencies:
