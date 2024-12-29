@@ -81,6 +81,11 @@ Modify the following configurations in the script as needed:
 - `MONITOR_INTERVAL`: Monitoring interval in seconds (default: `1` second).
 - `DATA_RATE_THRESHOLD`: Minimum data rate (in bytes/second) to consider as significant traffic (default: `1000`).
 
+## Showcase Of Program
+![image](https://github.com/user-attachments/assets/2cc6b4ee-5016-4edf-aab1-4e7f26fc1602)
+
+
+
 ## License
 This project is licensed under the [MIT License](LICENSE).
 
