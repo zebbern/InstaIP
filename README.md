@@ -84,7 +84,7 @@ Data Rate     : 1200.00 B/s
 Modify the following configurations in the script as needed:
 - `PROCESS_NAME`: Default process name to monitor (`"cod.exe"`).
 - `MONITOR_INTERVAL`: Monitoring interval in seconds (default: `1` second).
-- `DATA_RATE_THRESHOLD`: Minimum data rate (in bytes/second) to consider as significant traffic (default: `1000`).
+- `DATA_RATE_THRESHOLD`: Minimum data rate (in bytes/second) to consider as significant traffic (default: `400`).
 
 ## Showcase Of Program
 ![image](https://github.com/user-attachments/assets/3d2fa07d-4285-49f2-81a5-68b0e24ac5e8)
