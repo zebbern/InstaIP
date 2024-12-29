@@ -3,9 +3,9 @@
 A Python-based tool to monitor and identify active game servers by analyzing CPU usage, network traffic, and UDP connections in real-time.
 Perfect to identify active live game IP & Ports! 
 
-`Has to be in a live game session to have anything to grab!`
-`Install requirements`
-`Open python via cmd or just the exe for it to be no commands to run`
+- `Has to be in a live game session to have anything to grab!`
+- `Install requirements`
+- `Open python via cmd or just the exe for it to be no commands to run`
 
 
 ## Features
