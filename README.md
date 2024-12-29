@@ -3,12 +3,18 @@
 A Python-based tool to monitor and identify active game servers by analyzing CPU usage, network traffic, and UDP connections in real-time.
 Perfect to identify active live game IP & Ports! 
 
+`Has to be in a live game session to have anything to grab!`
+`Install requirements`
+`Open python via cmd or just the exe for it to be no commands to run`
+
+
 ## Features
 - **Monitor CPU Usage**: Identify top CPU-consuming processes.
 - **Network Traffic Analysis**: List network interfaces and their traffic stats.
 - **UDP Monitoring**: Track and analyze UDP traffic to detect active game servers.
 - **User-Friendly Interface**: Step-by-step process selection and intuitive output.
 - **Threshold-Based Alerts**: Alerts on significant data transfer rates to help pinpoint the active server.
+
 
 ## Requirements
 - Python 3.6+
