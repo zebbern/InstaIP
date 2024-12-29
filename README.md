@@ -1,7 +1,6 @@
 # Server IP Finder for Games
 
-A Python-based tool to monitor and identify active game servers by analyzing CPU usage, network traffic, and UDP connections in real-time.
-Perfect to identify active live game IP & Ports! 
+Server IP finder for online games, providing live game session analysis for IP and port discovery.
 
 - `Has to be in a live game session to have anything to grab!`
 - `Install requirements`
