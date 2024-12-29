@@ -1,2 +1,91 @@
-# GameSniffer
+# Game Sniffer
+
 A Python-based tool to monitor and identify active game servers by analyzing CPU usage, network traffic, and UDP connections in real-time.
+Perfect to identify active live game IP & Ports! 
+
+## Features
+- **Monitor CPU Usage**: Identify top CPU-consuming processes.
+- **Network Traffic Analysis**: List network interfaces and their traffic stats.
+- **UDP Monitoring**: Track and analyze UDP traffic to detect active game servers.
+- **User-Friendly Interface**: Step-by-step process selection and intuitive output.
+- **Threshold-Based Alerts**: Alerts on significant data transfer rates to help pinpoint the active server.
+
+## Requirements
+- Python 3.6+
+- Libraries:
+  - `psutil`
+  - `pyshark`
+  - `colorama` (optional, for color-coded output)
+- TShark installed and accessible in the system path.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/game-server-monitor.git
+   cd game-server-monitor
+   ```
+
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Ensure TShark is installed on your system. Follow the [Wireshark documentation](https://www.wireshark.org/download.html) for installation instructions.
+
+## Usage
+1. Run the script:
+   ```bash
+   python game_server_monitor.py
+   ```
+
+2. Follow the prompts to:
+   - Select a process to monitor.
+   - Choose a network interface.
+   - Identify the active game server based on UDP traffic.
+
+## Example Output
+```
+[INFO] Starting Game Server Monitoring Tool...
+
+=== Top 10 CPU Consuming Processes ===
+No.   Process Name                     CPU Usage (%)
+---------------------------------------------------
+1     cod.exe                          45.0
+2     chrome.exe                       25.0
+...
+
+Enter the number of the process you want to monitor (1-10): 1
+[INFO] Selected process: cod.exe
+
+=== Available Network Interfaces ===
+No.   Interface Name                   Bytes Sent       Bytes Received       Total Traffic
+-----------------------------------------------------------------------------------------
+1     eth0                             1,234,567        2,345,678            3,580,245
+...
+
+Enter the number of the network interface you want to use (1-2): 1
+[INFO] Selected network interface: eth0
+
+[INFO] Capturing UDP traffic on interface 'eth0' for 1 second(s)...
+
+=== Active Game Server Identified ===
+IP Address    : 192.168.1.50
+Port          : 27015
+Data Rate     : 1200.00 B/s
+=====================================
+```
+
+## Customization
+Modify the following configurations in the script as needed:
+- `PROCESS_NAME`: Default process name to monitor (`"cod.exe"`).
+- `MONITOR_INTERVAL`: Monitoring interval in seconds (default: `1` second).
+- `DATA_RATE_THRESHOLD`: Minimum data rate (in bytes/second) to consider as significant traffic (default: `1000`).
+
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+## Contributions
+Contributions are welcome! Feel free to submit issues or pull requests to improve the tool.
+
+## Author
+[zebbern](https://github.com/zebbern)
