@@ -21,8 +21,8 @@ Perfect to identify active live game IP & Ports!
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/game-server-monitor.git
-   cd game-server-monitor
+   git clone https://github.com/zebbern/GameSniffer.git
+   cd GameSniffer
    ```
 
 2. Install the required dependencies:
@@ -35,7 +35,7 @@ Perfect to identify active live game IP & Ports!
 ## Usage
 1. Run the script:
    ```bash
-   python game_server_monitor.py
+   python server.py
    ```
 
 2. Follow the prompts to:
