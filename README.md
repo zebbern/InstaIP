@@ -1,4 +1,4 @@
-# Game Sniffer
+# Game Sniffer ~ Server IP Grabber 
 
 A Python-based tool to monitor and identify active game servers by analyzing CPU usage, network traffic, and UDP connections in real-time.
 Perfect to identify active live game IP & Ports! 
@@ -6,7 +6,6 @@ Perfect to identify active live game IP & Ports!
 - `Has to be in a live game session to have anything to grab!`
 - `Install requirements`
 - `Open python via cmd or just the exe for it to be no commands to run`
-
 
 ## Features
 - **Monitor CPU Usage**: Identify top CPU-consuming processes.
@@ -102,3 +101,17 @@ Contributions are welcome! Feel free to submit issues or pull requests to improv
 
 ## Author
 [zebbern](https://github.com/zebbern)
+
+## 🚨 Disclaimer
+**This project is intended for educational purposes only.**  
+It demonstrates techniques for analyzing network traffic to identify server IP addresses used in multiplayer games.  
+**Unauthorized use of this tool to extract information from servers without permission may violate terms of service, local laws, or privacy rights.**
+
+By using this project, you agree to:
+- Use it responsibly.
+- Avoid any illegal or unethical applications.
+- Ensure you have proper authorization when analyzing network data.
+
+The author is **not responsible for any misuse of this tool.**
+
+---
