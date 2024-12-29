@@ -54,45 +54,13 @@ Server IP finder for online games, providing live game session analysis for IP a
    - Choose a network interface.
    - Identify the active game server based on UDP traffic.
 
-## Example Output
-```
-[INFO] Starting Game Server Monitoring Tool...
-
-=== Top 10 CPU Consuming Processes ===
-No.   Process Name                     CPU Usage (%)
----------------------------------------------------
-1     cod.exe                          45.0
-2     chrome.exe                       25.0
-...
-
-Enter the number of the process you want to monitor (1-10): 1
-[INFO] Selected process: cod.exe
-
-=== Available Network Interfaces ===
-No.   Interface Name                   Bytes Sent       Bytes Received       Total Traffic
------------------------------------------------------------------------------------------
-1     eth0                             1,234,567        2,345,678            3,580,245
-...
-
-Enter the number of the network interface you want to use (1-2): 1
-[INFO] Selected network interface: eth0
-
-[INFO] Capturing UDP traffic on interface 'eth0' for 1 second(s)...
-
-=== Active Game Server Identified ===
-IP Address    : 192.168.1.50
-Port          : 27015
-Data Rate     : 1200.00 B/s
-=====================================
-```
-
 ## Customization
 Modify the following configurations in the script as needed:
 - `PROCESS_NAME`: Default process name to monitor (`"cod.exe"`).
 - `MONITOR_INTERVAL`: Monitoring interval in seconds (default: `1` second).
 - `DATA_RATE_THRESHOLD`: Minimum data rate (in bytes/second) to consider as significant traffic (default: `400`).
 
-## Showcase Of Program
+## Example Outputs
 ![image](https://github.com/user-attachments/assets/3d2fa07d-4285-49f2-81a5-68b0e24ac5e8)
 
 ![image](https://github.com/user-attachments/assets/2cc6b4ee-5016-4edf-aab1-4e7f26fc1602)
