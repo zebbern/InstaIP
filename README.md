@@ -5,6 +5,8 @@ Server IP finder for online games, providing live game session analysis for IP a
 - `Has to be in a live game session to have anything to grab!`
 - `Install requirements`
 - `Open python via cmd or just the exe for it to be no commands to run`
+- `Made simple for none coders`
+- `No Experience needed as simple as running the exe and choosing running game`
 
 ## Features
 - **Monitor CPU Usage**: Identify top CPU-consuming processes.
@@ -12,6 +14,7 @@ Server IP finder for online games, providing live game session analysis for IP a
 - **UDP Monitoring**: Track and analyze UDP traffic to detect active game servers.
 - **User-Friendly Interface**: Step-by-step process selection and intuitive output.
 - **Threshold-Based Alerts**: Alerts on significant data transfer rates to help pinpoint the active server.
+
 
 
 ## Requirements
