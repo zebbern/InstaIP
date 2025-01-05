@@ -27,7 +27,7 @@ Monitor UDP traffic for active game servers and copy detected IPs and ports to t
 
 3. Run the script:
    ```bash
-   python udp_monitor.py
+   python Sniff.py
    ```
 
 ---
