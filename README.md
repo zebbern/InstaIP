@@ -38,3 +38,5 @@ Monitor UDP traffic for active game servers and copy detected IPs and ports to t
   ```
   udp 12.34.56.78 dport=12345
   ```
+
+https://imgur.com/a/BxOcwLj
